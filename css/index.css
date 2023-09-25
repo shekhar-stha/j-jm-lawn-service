@@ -13052,23 +13052,9 @@ nav .navbar-nav {
   justify-content: center;
   align-self: center;
 }
-@media (min-width: 1200px) {
-  nav .navbar-nav .navigation-content {
-    width: 39%;
-  }
-}
-nav .navbar-nav .navigation-logo {
-  position: relative;
-}
 @media (max-width: 1200px) {
   nav .navbar-nav .navigation-logo {
     display: none;
-  }
-}
-@media (min-width: 1200px) {
-  nav .navbar-nav .navigation-logo {
-    width: 22%;
-    height: 100%;
   }
 }
 @media (max-width: 1200px) {
@@ -13078,10 +13064,10 @@ nav .navbar-nav .navigation-logo {
 }
 nav .navbar-nav .nav-link {
   color: #212529;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
-  margin: 0 1rem;
+  text-transform: capitalize;
+  margin: 0 0.7rem;
   border-bottom: 4px solid transparent;
   transition: all 0.7s;
 }
@@ -13806,6 +13792,9 @@ nav .navbar-nav .nav-link:hover {
   min-height: 25rem;
   object-fit: cover;
   filter: brightness(20%);
+}
+.services .services-row .service a {
+  padding: 1rem 1.5rem;
 }
 .services .services-row .service .hidden-info {
   position: absolute;
